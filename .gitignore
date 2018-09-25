@@ -1,0 +1,16 @@
+# ignore auto generated (by pycharm) folder '.idea/'
+.idea/
+
+# ignore data set
+data/*/*
+!/data/usps/download_usps.txt
+
+# ignore the results of running code 'results/'
+*.h5
+pretrain_log.csv
+/results/test/
+/results/temp/
+# ignore others
+*.pyc
+
+
