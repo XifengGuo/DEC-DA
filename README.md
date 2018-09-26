@@ -6,7 +6,7 @@ State-of-the-art clustering performance on (duo to Jun 30, 2018):
 - Fashion-MNIST (acc=0.586, nmi=0.636)
 
 Tensorflow implementation for ACML-2018 paper:
-* Xifeng Guo, En Zhu, Xinwang Liu, Jianping Yin. Deep Embedded Clustering with Data Augmentation. 
+* Xifeng Guo, En Zhu, Xinwang Liu, Jianping Yin. [Deep Embedded Clustering with Data Augmentation](https://xifengguo.github.io/papers/ACML18-DEC-DA.pdf). 
 The 10th Asian Conference on Machine Learning (ACML), 2018.
 
 ## Abstract
