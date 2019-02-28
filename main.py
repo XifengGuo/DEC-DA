@@ -64,7 +64,7 @@ def train(args):
     if args.pretrained_weights is not None and os.path.exists(args.pretrained_weights):  # load pretrained weights
         model.autoencoder.load_weights(args.pretrained_weights)
     else:  # train
-        pretrain_optimizer = SGD(1.0, 0.9) if args.method in ['FcDEC', 'FcIDEC'] else 'adam'
+        pretrain_optimizer = SGD(1.0, 0.9) if args.method in ['FcDEC', 'FcIDEC', 'FcDEC-DA', 'FcIDEC-DA'] else 'adam'
         model.pretrain(x, y, optimizer=pretrain_optimizer, epochs=args.pretrain_epochs, batch_size=args.batch_size,
                        save_dir=args.save_dir, verbose=args.verbose, aug_pretrain=args.aug_pretrain)
     t1 = time()

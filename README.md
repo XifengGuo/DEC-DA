@@ -71,7 +71,7 @@ python run_exp.py
 Other flexible usages:
 
 ```
-# 1. get uaage help
+# 1. get usage help
 python main.py -h
 # 2. train FcDEC without data augmentation on mnist dataset:
 python main.py --method FcDEC --optimizer sgd --lr 0.01 --save-dir results/fcdec 
